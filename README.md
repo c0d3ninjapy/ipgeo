@@ -15,7 +15,9 @@ You will also need the pygeoip module: pip install pygeoip
 # USAGE
 
 git clone https://github.com/c0d3ninjapy/ipgeo.git
+
 cd ipgeo
+
 python ipgeo.py
 
 ENJOY!!
