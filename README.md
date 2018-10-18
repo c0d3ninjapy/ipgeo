@@ -10,9 +10,7 @@ get GeoliteCity from here: https://dev.maxmind.com/geoip/legacy/geolite/
 
 get GeoIP.dat from here: http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
 
-You will aslo need the pygeoip module
-
-# "pip install pygeoip"
+You will also need the pygeoip module: pip install pygeoip
 
 
 
