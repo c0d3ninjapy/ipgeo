@@ -1,5 +1,6 @@
-import pygeoip
+from __future__ import print_function
 import socket
+import pygeoip
 
 # IP GEO v1.0 by c0d3ninja
 # Instagram: c0d3ninja
