@@ -1,4 +1,5 @@
-import pygeoip, socket
+import pygeoip
+import socket
 
 # IP GEO v1.0 by c0d3ninja
 # Instagram: c0d3ninja
@@ -20,20 +21,20 @@ $$$$$$\ $$ |            \$$$$$$  |$$$$$$$$\  $$$$$$  |
                                                       
 """
 
-print ascii + "\n"
-print "Author: c0d3ninja" + "\n"
+print(ascii + "\n")
+print("Author: c0d3ninja" + "\n")
 
 
 host = "microsoft.com"
 ip = socket.gethostbyname(host)
 
-print "Website: " + host
-print "IP: " + ip
+print("Website: " + host)
+print("IP: " + ip)
 
-print "----------------------"
+print("----------------------")
 
-print "Country: " + gip.country_name_by_addr(ip)
-print "Time Zone: " + gipcity.time_zone_by_addr(ip)
+print("Country: " + gip.country_name_by_addr(ip))
+print("Time Zone: " + gipcity.time_zone_by_addr(ip))
 
 record = gipcity.record_by_addr(ip)
 
@@ -45,13 +46,14 @@ latitude = record["latitude"]
 longitude = record["longitude"]
 city = record["city"]
 metrocode = record["metro_code"]
-print "City: " + city
-print "Continent: " + continent
-print "Country Code: " + countrycode
-print "Postal Code: " + postalcode
-print "Area Code: " + str(areacode)
-print "Metro code: " + str(metrocode)
-print "Latitude: " + str(latitude)
-print "Longitude: " + str(longitude)
 
-print "----------------------"
+print("City: " + city)
+print("Continent: " + continent)
+print("Country Code: " + countrycode)
+print("Postal Code: " + str(postalcode))
+print("Area Code: " + str(areacode))
+print("Metro code: " + str(metrocode))
+print("Latitude: " + str(latitude))
+print("Longitude: " + str(longitude))
+
+print("----------------------")
